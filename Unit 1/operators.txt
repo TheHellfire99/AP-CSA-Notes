@@ -1,0 +1,24 @@
+- Compound Assignment Operators:- 
+  - += 
+    - example x+=7 
+    - add 7 to the value stored in x
+
+  - -=
+    - example x -= 7 
+    - subtract 7 from the value stored in x and store it back in x
+
+  - x*= , x/= , x%= 
+    - does the same things as mentioned above but in their own operations (multiply, divide, modulus)
+    - x *= 7 , x /= 7 , x %= 7 
+
+- compound assinment operators can be used instead of assignment operators
+
+- increment operator: ++ 
+  - example: x++
+  - add one
+
+- decrement operator: --
+  - example: x--
+  - subtract one
+
+  

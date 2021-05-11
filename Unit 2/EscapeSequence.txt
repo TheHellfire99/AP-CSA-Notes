@@ -1,0 +1,8 @@
+- escape sequences start with a "\" and have a special meaning in Java
+  - example: \, \\, \n
+
+- \" : prints a doube quote character.
+
+- \\ : prints a backslash character
+
+- \n : inserts a new line.

@@ -1,0 +1,28 @@
+- Methods define the behaviours for all objects of a class and consist of a set of instructions for executing the behaviour. 
+
+- Procedural Abstraction: seperate code into multiple methods
+
+- A void method contains multiple calling statements for other constructors. 
+
+- can call methods by using: objectName.MethodName(); 
+  - example:- Letter.niger(); 
+
+- void methods do not return any thing.
+
+- nullpointer exception: refrence a null objects
+
+- a method signature for a method with parameters consists of the method name and the 
+  ordered list of parameter types.
+
+################### Calling non void methods #########################
+
+- non void methods: methods that can return a value 
+
+- can return a value from a method by typing:- 
+  - return varibleName; 
+
+- return a value as the same type defined in our method 
+
+- non void methods signature: 
+  - public double penisCalc(int num1, doube girth)
+

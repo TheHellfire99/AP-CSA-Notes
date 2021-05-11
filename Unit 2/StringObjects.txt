@@ -1,0 +1,57 @@
+- string objects can be created by:- 
+  - String VariableName = "penis"; 
+  - or you can also say:- 
+    - String VariableName = new String("Longer Penisss"); 
+
+- string class can also be defined in two parts for example:- 
+  - String name3 = new String(name1); 
+
+- when we type "new" in our code, we instantiate an object. 
+
+- immuatable:- cannot change in any case 
+  - String objects are immuatable
+  - methods that act upon the string do not change the state of the 
+    defind string object. 
+
+- concatenation: Joining of the data. 
+  - Operators used to concatnate: += or +
+  - can use to add string 
+
+- you can concatnate strings and int together. It will create a string 
+
+- in the "+=" concatnate method, a space is not added in the result. 
+  - example: Isaac10
+
+- API: Application Program Interface
+
+- Index starts from 0 
+
+- int indexOf(String str) : returns the index of where a specific string is found
+  - returns -1 if not found
+  - example:
+    - VariableName.indexOf("p");
+    - returns index/where it is located of "p"
+
+- to import an API we use: import java.APIName.packageName; 
+  - example: import java.lang.String; 
+
+- String substring(int from, int to) : returns a substring beginning at index from and 
+  ending at index to - 1. 
+  - not inclusive of "index to"
+  - example:- VariableName.substring(2,6); 
+    - give alphabets from index 2 to 5 
+
+- String substring (int from) : returns substring(from, length())
+  - example:- VariableName.substring(2); 
+    - starts at index 2 and goes until end of string
+
+- int length() : returns the number of characters in a string object
+  - example: VariableName.length(); 
+  - doesn't tell index but rather the actual number of words. 
+
+- boolean equals(String other) : returns true if one string equals another; returns false otherwise
+  - example:- VariableName1.equals(VariableName2); 
+
+- int compareTo(String other) : returns a value < 0 if string is less than other string; 
+  returns zero if they equal each other, returns a value > 0 if string is greater than other stringg
+  - example:- VariableName1.compareTo(VariableName2); 

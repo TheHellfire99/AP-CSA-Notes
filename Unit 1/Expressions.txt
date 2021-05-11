@@ -1,0 +1,44 @@
+- literal: The source code representation of a fixed value. 
+  - is a numeric value 
+  - example: 3 or 4 or 5
+
+- string literal: encapsulated in double quotes 
+  - is an string value 
+  - example: "3"
+
+- Arithmaitc operators:- 
+  - add: + 
+  - subtract: - 
+  - multiply: *
+  - divide: /
+  - modulus: % (provides the remainder of the division)
+    - 17%5 = 2 
+
+- if we do operations that involve a specific data type, 
+  our answers will be in that data type. 
+  - example: 
+    - int * int = int 
+    - double * double = double
+
+- if we do operations involving 2 or more data types, 
+  highest data type will be used to the answers
+  - example: 
+    - int * double = double 
+
+- Java follows order of operations (PEMDAS)
+
+- 8*6-14%3+8/2 = 50 
+
+- in java, if you divide by zero. the compiler throws an arithmaitc exception
+
+- the Assignment operator: = 
+  - assign a value to a variable 
+  - example: x = 7; 
+  - cannot say 7 = x; we can only go one direction
+
+- can also take x = y = z = 7; 
+  - take the value of the variable to the right and assign it to the left one. 
+    so we assign value of y to x. 
+ 
+
+

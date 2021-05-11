@@ -1,0 +1,23 @@
+- wrapper classes integer and double are called from the java.lang package 
+
+- Integer is a class (note the word is capitalized). It is a wrapper class
+    - int is a primitive data type 
+    - example:- Integer num1 = new Integer(157); 
+
+- Integer.MIN_VALUE : provides the smallest storable value in an int
+
+- Integer.MAX_VALUE : provides the largest storable value in an int (2^31 - 1)
+  - if you add 1 to the max value, it loops around and shows the min value
+
+- int intValue : returns value of this integer as an int
+
+- Double is a class (notice the capitalized word). It is also a wrapper class
+  - double is a primitive data type. 
+  - example:- Double num1 = new Double(16.78); 
+
+- double doubleValue() : provides value of this as double
+
+- Autoboxing: converting int to Integer and double to Double. (converting primitive to wrapper class)
+  - example:- Double num1 = new Double(16.78);
+  - we can "unbox" them and turn them back to primitive data type.
+    - example:- num1.doubleValue(); 

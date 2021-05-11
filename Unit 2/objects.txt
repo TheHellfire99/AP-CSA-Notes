@@ -1,0 +1,29 @@
+- java is an object orientated progamming langauge 
+
+- A class can be used to define new data types or create blueprints for objects 
+  - a class is a blueprint for objects
+  - Components of a class:- 
+    - Define Attributes for properties of the objects as instance variables 
+    - represent what an object can do, or its behaviours, as methods 
+
+- An object is created from a class, resulting in an instance of a class. 
+
+- A constructor is use to initialize the attributes for an object.  
+  - A class can have multiple constructors. 
+  - constructor will always start with public and have the same name as the class 
+  - Signature contains name and parameters of the contructor
+    - exameple: public Person(String nm, int ag)
+  - Formal Parameters are information being passed into the constructor. 
+    - example: (String nm, int ag)
+  
+- we can create an object using the new keyword followed by the class name.
+  - example: Dog nijjgaDog = new Dog("nig","ger", 1); 
+  - object creation has the actual parameters that are passed to the the formal parameters 
+
+- Overloading Constructors: having more than one constructor for a single object.
+  - have multiple ways to create an object 
+  - compiler calls the constructor whose formal parameters match those passed in the object's parameters
+
+- No-argument Constructor: has no parameters and sets the instance variables for the object to a default value.  
+
+- "null" is a special value use to indicated that the reference doesn't contain any data

@@ -1,0 +1,28 @@
+- primitive data: determines the size and type of information
+  
+  - Booleans: true/false values 
+    - only takes 1 bit and is the smallest data type
+
+  - int: integer values which are whole numbers 
+    - 32 bits 
+
+  - double: decimal numbers also known as floating point numbers 
+    - 64 bits 
+
+  - String: text values such as "hello world"
+   - 16 bits 
+
+- Primitive types are already part of the java langauge 
+
+- Non-primitive types are created by the programmer 
+  - can use methods to perform actions unlike primitive types which can't
+
+- Variable: A name given to a memory location that is holding a value
+
+- Variable is used to store data which can be used later in the code 
+
+- adding a final to the data types makes the value a constant meaning it isn't going to change 
+  - example:- 
+    - final int PENIS = 10; 
+    - variable name of final is always all caps
+    

@@ -1,0 +1,16 @@
+- in loops, boolean expressions are evaluated before each iteration of the loop body including the first.
+  - when expression evaluates to true, the loop body is executed until the expression evaluates to false 
+
+- loop : repetition of statements. (while, for, and do-while)
+
+- while loop syntax:- 
+  - use a loop control variable for the loop 
+
+  //initialize loop control variable 
+  while (/*check loop control variable*/){
+      //code
+      //update loop control variable 
+  }
+
+- your code is evaluated based on where it is placed. 
+  - it iterates through each line going down

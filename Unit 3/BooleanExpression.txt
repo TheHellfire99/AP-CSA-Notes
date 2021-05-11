@@ -1,0 +1,79 @@
+- Java relational operators: 
+  - == : equal to 
+  - != : not equal to 
+  - < : less than 
+  - > : greater than 
+  - <= : less than or equal to 
+  - >= : greater than or equal to 
+
+- boolean operations solve to true or false
+
+- how to create boolean variable:- 
+  - boolean val = true; 
+
+- comparing of string objects should be handeled using:- 
+  - .equal
+  - .compareTo
+  and never using boolean expressions
+
+- && : both values need to be true 
+
+- || : only one of the values need to be true
+
+- if conditions evaluate to true or false.  
+  - also known as a one way selection
+  - only executes the code is situation is true otherwise it is skipped
+
+- while loops executes code until the situation is true
+
+- if-else statements run a different code if condition is true or if its false. 
+  - example of statement: 
+    if(condition){
+
+    }else{
+
+    }
+
+- You can nest if statements in one another
+
+- else-if statements have 3 seperated outcomes depending on the situation. 
+  - example of syntax:- 
+   if(condition){
+
+   }else if(condition){
+
+   }else{
+
+   }
+  - you can multiple else ifs in your piece of code
+  - also known as multi-way selection
+
+- the else statement belongs to the closest if
+
+- logical operators !(not), &&(and), and || (or)
+  - && : both conditions need to be true 
+  - || : one condition needs to be true 
+  - ! : flips true to false and false to true
+
+- logical operators evaluate to a single boolean value
+
+- Short circuit evaluation : when a compound boolean does not need to be fully evaluated to 
+  know what the final result will be. 
+  - in case of && operator, short circuit happens when the first half of condition is false
+  - in case of || operator, short circuit happens when first half of condition is true
+
+- De Morgen's Law: Given two boolean variables a and b: !(a && b) = (!a || !b)
+  - if you distribute a "not (!)" operator with a boolean, it flips the relational operator 
+    to the opposite relational operator
+  - example:- 
+    - !(x>0) = (x <= 0)
+
+- truth tables help evaluate outcome of a boolean expression. by showing final boolean for every single value
+
+- if 2 different objects have the same value, if statement will still evaluate to false as they are different objects
+  and not aliases.
+
+- equals method compares the attributes of two objects to determine if they are equal. 
+  - will return true if objects are equal and false if not
+
+  

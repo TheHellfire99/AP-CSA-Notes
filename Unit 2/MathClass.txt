@@ -1,0 +1,35 @@
+- math class methods are static
+  - static methods are those that belong to the class rather than objects of a class.
+
+- math class methods are predefined, return numeric value, and act upon the given parameters. 
+  - predefined means class libraries
+
+- math class methods don't require instance variable creation. 
+
+- Math class is part of java.lang.Math
+
+- static int abs(int x) : returns the absolute value of an int value 
+  - static int num = Math.abs(-100); 
+
+- static double abs(double x) : return the absolute value of a double value
+  - static double num = Math.abs(-200.420); 
+
+- static double pow(double base, double exponent) : returns value of base raised to the power of exponent
+  - static double num = Math.pow(2.2, 69.23); (can also use an int)
+
+- static double sqrt(double x) : returns the positive square root of a double value
+  - static double num = Math.sqrt(645.3); (can also use an int)
+
+- static double random() : return random double between 0 and 1. 
+  - static double num = Math.random(); (can also be an int) . 
+
+- casting is used to convert double to int. 
+  - example:- ((int)(Math.random()); 
+  - adding (int) before the number turns it into an integer. 
+  - can also use (double) in the same way 
+
+- ((int)(Math.random()* 100 + 1))
+  - creates random number between 0-100 (inclusive)
+
+- to create inclusive random values of between a certian range. do the following
+  - (int) (Math.random()*(range + 1 ) * lowest value allowed)

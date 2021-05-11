@@ -1,0 +1,27 @@
+1) 
+Syntax/compiler errors: errors that a programmer makes while writing code. 
+examples mainly include:- 
+- misspeled words
+- capitalization errors 
+
+it causes the code to be unable to compile as the code is faulty
+
+
+2)
+Logic Error: logic errors in the code that the programmer makes which cause the program 
+to print wrong output. 
+
+- the codes still compile but they have the wrong output since the logic is wrong. 
+- examples incldue:-
+  - programmer accidentally uses a minus instead of a plus when finding sum of 2 numbers 
+  - programmer accidentally divides instead of multiplying. 
+
+3) 
+Exception Error: an event that interrupts the normal flow of program execution. 
+- some examples mainly include:-
+  - Dividing a number by 0 
+  - Arithmatic Exception 
+  - nullpointer expception 
+
+- exceptions are out of the control of developers. they are caused cause the compiler can't run a
+piece of code. 

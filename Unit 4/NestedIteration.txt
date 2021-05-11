@@ -1,0 +1,8 @@
+- Nested Iterations : Iteration statments inside the body of another interation statement 
+
+- inner loop must complete entire Iteration before outerloop can run
+  - example: a clock acts like a nested loop
+
+- inner loop controls what prints on each line and outer loop controls how many times 
+
+- just like for loops, you can have while loops inside while loops

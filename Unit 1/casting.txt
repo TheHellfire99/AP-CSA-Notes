@@ -1,0 +1,26 @@
+- casting: temporarily change one data type to another data type
+  - change int to double temporarily etc 
+  - example:-
+    - System.out.println((double) 6/4); 
+      - prints out double value 
+
+- can also round numbers using casting operators. 
+  - example:- 
+    - int rounded = (int)(number + 0.5);  (for rounding positive values)
+    - int rounded = (int)(number - 0.5);  ( for negative values)
+
+- casting to int just drops the decimal value. 
+
+- data types are limited to how much info they can store
+  - int can store -2147483648 to 2147483647
+    - Intger.MAX_VALUE 
+    - Intger.MIN_VALUE 
+
+  - double can store up to 14-15 digits 
+
+- if the data is bigger than max value or min value, then the compiler will throw error
+
+- integer overflow occurs if you try to print value of max value + 1. it turns to negaitve min value. Same thing for 
+  negative but it turns to positive max value 
+
+

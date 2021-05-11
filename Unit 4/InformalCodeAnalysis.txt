@@ -1,0 +1,6 @@
+- informal code analysis: Computer informal run times by counting the number of times a statement executes
+  - how many times a loop will iterate
+  - statement execution count: number of times a statement is executed 
+
+- look at pic labeled "informal code analysis" for example
+

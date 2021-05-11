@@ -1,0 +1,10 @@
+- String .substring method: retrieves a particular portion of a string 
+
+- String .equals method: compares content of 2 strings 
+
+- String .lenght method: returns length of a string 
+
+- for loop : allows us to repeat a task multiple times using a loop control variable 
+
+- for examples of algorithm, look at the code in /APCSA/Unit 4/code folder
+
