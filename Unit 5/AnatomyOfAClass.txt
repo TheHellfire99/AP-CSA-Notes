@@ -1,0 +1,35 @@
+- "private" keyword : restricts access to the declaring class, while the keyword 
+  "public" allows access from classes outside the declaring class. 
+  - classes, and constructors are designated public 
+  - instance variables are designated as private 
+  - methods can be either public or private
+
+- Classes are blueprints for creating objects 
+  - attributes of objects are instance variables
+  - Behaviour of objects are methods
+  - Example: Class - Snack (coded example in code folder)
+    - attributes: 
+      - Name 
+      - calories 
+    - Behaviours:  
+      - get name/calories
+      - set name/calories 
+
+- public access modifier 
+  - no restriction on acess 
+  - other classes can access
+  - classes will be public 
+  - constructors will be public 
+
+- private access modifier
+  - restrictions on access 
+  - only access in given classes 
+  - instance variables will be private 
+
+- Data encapsulation: a technique in which the implementation details of a class are kept hidden from a user. 
+  - instance variables are incapsulated using the private accesss modifier
+  - we provide accessors and modifiers to view and modify variables outside of a class 
+  
+- why make instance variables private?: 
+  - restrict access (read-only)
+  - option to provide validation checks 

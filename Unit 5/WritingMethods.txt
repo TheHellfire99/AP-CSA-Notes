@@ -1,0 +1,14 @@
+- Methods can only access private data and methods of a parameter
+
+- non void methods with parameters recieve values through parameters, use those values 
+  and return a computed value of a specified type.   
+
+- A method header consist of 5 parts:- 
+  - Access level - set by an Acess modifier : public or private 
+  - Ownership - set by whether or not static is included 
+  - Return type - the data type of the value returned by the method, can be primitive, 
+    reference or void (when no value is returned)
+  - Parameter List - enclosed in parenthesis, states the data type and identifier for each 
+    parameter used in the method
+    - A parameter is information needed by the method
+

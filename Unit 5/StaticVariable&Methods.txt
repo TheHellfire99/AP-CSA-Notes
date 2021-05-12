@@ -1,0 +1,17 @@
+- static methods are associated with the class, not objects of the class. 
+  - include static in the header
+  - cannot access or change the values of instance variables
+  - do not have a "this" refrence and are unable to use the class's instance variables or call 
+    non-static methods.
+
+- static variables belong to the class, with all objects of a class sharing a single static variabls
+  - can be designated as either public or private and are designated with the static keyword
+  - used with the class name and the dot operator, since they are associated with a class, not objects of a class
+
+- local variables can be declared in the body of constructors and methods. 
+  - can only be used within the body of constructor or method and cannot be declared public or private
+  - when local variable have same name as instance variable, the name will refer to local variable
+  - formal parameters can only used within the method or constructor.
+
+- the keyword "this" can be used to pass the current object as an actual parameter in a method call.
+  - this.variable refers to the variable value is being passed to

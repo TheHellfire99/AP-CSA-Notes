@@ -1,0 +1,11 @@
+- a mutator method is often a void method that changes the values of instance variables or 
+  static variables
+  - a void method does not return a value.
+  - header contains the keyword void. 
+
+- must be public 
+- return type must be void
+- look at example in photo to see implementation 
+
+- you cannot change the state of an object by only using the accessor method. 
+

@@ -1,0 +1,16 @@
+- An accessor method allows other objects to obtain the value of instance variables 
+or static variables 
+
+- non void method returns a single value 
+  - its header includes the return type 
+  - "return by value"
+
+- accessor methods must be public 
+
+- no parameters 
+
+- return type must be the same as the method.
+
+- toString method : an overriden method that is included in classes to provide a description of a specific object.
+  - prints the description of an object / what is stored in the object
+  - check out implementation in photo

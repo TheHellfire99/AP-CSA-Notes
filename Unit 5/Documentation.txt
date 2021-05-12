@@ -1,0 +1,13 @@
+- comments ignored by the compiler and are not executed when the program is run
+  - /* */ : generates multi-line block comments 
+  - // : single line comments 
+  - /** */ : javadoc comments used to document API documentations
+
+- help make code more readable
+- preventt execution when testing alternative code 
+- mention the programmer, date, and purpose in the code 
+
+- postcondition : condition that must always be true after the execution of a section of
+  program of code. 
+
+- precondition : must be true prior to the execution of a program.

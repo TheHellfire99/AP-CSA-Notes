@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Unit 4/code",
         "Unit 3/Boolean Code",
-        "Unit 4/code"
+        "Unit 5/code"
     ]
 }

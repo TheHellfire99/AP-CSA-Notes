@@ -1,0 +1,13 @@
+- define instance variables for the attributes to be initialized through the constructors 
+  of a class.
+
+- each instance of a class(object) has a private instance variable
+
+- default constructors : sets default values for instance variables
+  - programmer chooses default values
+
+- when no constructor is written, java provides a no-argument constructor, and the instance variables are set 
+  to default variables. 
+
+- constructor parameters are local variables to the constructor and provide data to initialize instance
+  variables.
