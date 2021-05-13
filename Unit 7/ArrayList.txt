@@ -1,0 +1,36 @@
+- An ArrayList object is mutable(meaning it can be changed) and contains object refrences 
+  - arrays are statics but ArrayLists are dynamic meaning their size can be changed
+  - not desined to store primitive data types but rather object refrences
+  - implemented using arrays
+
+- in order to use ArrayList, you have to import it: 
+  - import java.util.ArrayList; 
+
+- to declare a variable to refrence an ArrayList Object: ArrayList<DataType> variableName; 
+
+- to instantiate an ArrayList Object: new ArrayList<DataType>();
+
+- example: 
+  ArrayList<Integer> a1 = new ArrayList<Integer>(5); // has 5 elements   
+
+- int size() : returns number of elements in the ArrayList
+  - example: a1.size(); 
+
+- Boolean add(E obj): appends obj to the end of list and returns true
+  - example: a1.add(1); 
+             a1.add(3, "java"); //adds java to the 3rd index 
+
+- To add objects to an ArrayList, the objects must be the same data type
+
+- E remove (int idex) : removes element from specified index and all indexs to the left move one index back
+
+- E set (int index, E obj) : replaces the element at position index with obj returns the element formerly at position index
+  - example: a1.set(1, "java");
+
+- E get(int index) : Returns the element at position index in the list 
+  - example : a1.get(2); 
+
+- when trying to remove objects from an arrayList, traverse backwards in the list(i-- instead of i++).
+
+- when traversing through enhanced for loop, do not add or remove elements. 
+
