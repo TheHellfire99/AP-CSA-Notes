@@ -1,0 +1,24 @@
+- the use of arrays allow multiple related itemas to be represented using a single variable 
+
+- Arrays can store either primitive data or object refrence data. 
+
+- array : data structure used to implement a collection of primitive or object refrence data 
+    - element is a single value in array and starts at 0 
+    - length of an array is the number of elements in an array.
+      - lenght is a public final data member. (final meaning it cannot be changed)
+
+- last element in an array is at index list.lenght - 1; 
+
+- How to construct an array:
+    int [] listOne = new int [5]; //creates an array with 5 elements 
+    list[2] = 33; //set value of index 2 to 33
+    list[3] = listOne[2]*3; //set index 3 to value of second index times 3 
+    System.out.println(listOne[3]) // prints value of index 3
+    int [] nig = {1,2,3}; //create nig with 3 numbers indexs from 0-2
+
+- sqare brackets [] are used to access and modify an element in a 1d array using an index 
+
+- size of an array is established at the time of creation and cannot be changed 
+
+- iteration statements can be used to access all the elements in an array. (called traversing an array)
+ 

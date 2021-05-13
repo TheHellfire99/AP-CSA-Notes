@@ -1,0 +1,14 @@
+- Enhanced For loop:- 
+  - only two part to the header and they are seperatd by a colon. 
+
+- first half of enhanced for loop signature is the type and name of the variable 
+  and the colon seperates the variable section from the variable being transversed.
+
+- example:
+  For(type declaration : structure){
+      //code
+  }
+
+  for (int number : values){
+      System.out.println(number)
+  }
