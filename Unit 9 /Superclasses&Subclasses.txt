@@ -1,0 +1,33 @@
+- Classes that extend the superclass are called subclasses
+  - can call existing attributes and behaviours of the superclass
+
+- we use inhertence to build a hierarchy of classes that have similar charecteristics 
+
+- parent classes/superclass have attributes that can be inhereted by children class/subclas
+
+-  each subclass can only have one superclass but superclass can have multiple subclasses 
+
+-  the keyword "extends" is used to develop an inheritence relationship 
+  - example:- 
+    - public class Sanjay extends People{
+        //code
+    }
+    - Sanjay is a subclass of People and it inherits everything from people
+
+- superclass cannot inherit from subclass at all 
+
+- constructors with different parameters than the ones passed cannot be used 
+
+- super(); is automatically added to all methods and constructors of a subclass to call back from the superclass 
+
+- if you want to pass values to superclass use the "super();" 
+  - super(n,a); 
+    - passes n and a back to superclass and to the constructor that accepts the values
+
+- super(); always needs to be in the first line of the constructor or methods
+
+- Overriding occurs when a public method in a subclass has the same signature as a method in the superclass
+
+- when you write method with same signature as in superclass it overrides the one is superclass and the subclass one runs instead
+
+ 

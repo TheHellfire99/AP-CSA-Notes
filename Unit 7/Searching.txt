@@ -1,0 +1,10 @@
+- linear searching fits a standard for loop perfectly!
+  - specify each element one at a time 
+  - do not need to track the index after exeution.
+  - retrive thhe value at the specified index and compare it to the searched value 
+
+- linear search algorithms check each element in order until tthe desired value is found or al elements in the arrray 
+  or arrayList have been checked. 
+
+-  cannot use enhanced for loop for selection sort. 
+

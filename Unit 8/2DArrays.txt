@@ -1,0 +1,25 @@
+ - 2D arrays are stored as arrays of arrays. 
+   - created and index similar as 1D objecs
+
+- initializer array used to create and initialize 2D array consists of initializer lists that 
+  represent 1D arrays 
+
+- to declare a 2D array : DataType[][] name 
+  - int[][] grades
+
+- to initialize a 2D array : new DataTyp[r][c]
+  - new int[7][4]
+
+- to use initializer array: {{1,2,3,4},{5,6,7,8}}; 
+
+- to find out number of arrays : r = arrayName.length; 
+  - numer of columns is based off number of elements in row
+    - c = grades[0].length
+
+- to access specific element in a 2D array : arrayName[r][c]
+  - grades[5][2]
+
+- to change value at specific element : arrayName[r][c]=value; 
+
+- we use nested loops to traverse 2D arrays
+
