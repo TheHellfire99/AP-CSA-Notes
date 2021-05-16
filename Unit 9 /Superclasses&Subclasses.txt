@@ -30,4 +30,13 @@
 
 - when you write method with same signature as in superclass it overrides the one is superclass and the subclass one runs instead
 
- 
+- you can call overriden methods from superclass by using the super keyword
+  - super.perform();
+    - even though perform is present in the subclass, the perform method from the superclass is called. 
+
+-  a refrence variable is polymorphic when it can refer to objects from different classes at different points in the code 
+   - can store a refrence to its declared class or to any subclasses of its declared class
+
+-  you can downcast object calls to run methods.
+
+   

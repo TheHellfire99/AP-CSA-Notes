@@ -1,0 +1,3 @@
+- a recursive method is a method that can call itself
+  - contain at least one base case which halts the recursion
+  - contain at least one recursive call
